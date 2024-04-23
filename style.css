@@ -27,16 +27,10 @@ table th {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 75vh;
+  height: 86vh;
 }
 
 /* Adjust the width of the table container */
 .table-container {
   width: 60%; /* Adjust as needed */
-}
-
-nav {
-  position: sticky;
-  top: 10; // or whatever you have
-  z-index: 1;
 }

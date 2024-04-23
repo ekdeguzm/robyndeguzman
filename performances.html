@@ -64,25 +64,46 @@
         ></path>
       </symbol>
     </svg>
-    <div class="container">
-      <header class="d-flex justify-content-center py-2">
-        <ul class="nav nav-pills">
-          <li id="home" class="Home mx-2">
-            <a href="./index.html" class="nav-link active" aria-current="page"
-              >Home</a
-            >
-          </li>
-          <li class="about mx-2">
-            <a href="./index.html#about" class="nav-link active">About</a>
-          </li>
-          <li class="performances mx-2">
-            <a href="./performances.html" class="nav-link active"
-              >Performances</a
-            >
-          </li>
-        </ul>
-      </header>
-    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-0">
+      <div class="container-fluid navbar-dark bg-dark">
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="navbar-collapse collapse"
+          id="navbarSupportedContent"
+          style=""
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li id="home" class="Home mx-2">
+              <a
+                href="./index.html#home"
+                class="nav-link active"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li class="about mx-2">
+              <a href="./index.html#about" class="nav-link active">About</a>
+            </li>
+            <li class="performances mx-2">
+              <a href="./performances.html" class="nav-link active"
+                >Performances</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <div id="table" class="container">
       <div class="table-container">
@@ -128,7 +149,7 @@
 
     <div class="container">
       <div
-        class="d-flex flex-column flex-sm-row justify-content-between py-5 my-4 pb-2 border-top"
+        class="d-flex flex-column flex-sm-row justify-content-between pt-4 border-top"
       >
         <p>© 2024 Robyn De Guzman</p>
         <ul class="list-unstyled d-flex">
@@ -141,13 +162,14 @@
             ></a>
           </li>
           <li class="ms-3">
-            <a
-              class="link-body-emphasis"
-            href="mailto:deguzmanrobyn@gmail.com">
-              <img class="mx-2" src="./images/icons/paper-plane-svgrepo-com.svg" alt="paper plane" height="32"></svg
-            ></a>
+            <a class="link-body-emphasis" href="mailto:deguzmanrobyn@gmail.com">
+              <img
+                class="mx-2"
+                src="./images/icons/paper-plane-svgrepo-com.svg"
+                alt="paper plane"
+                height="32"
+            /></a>
           </li>
-
         </ul>
       </div>
     </div>
