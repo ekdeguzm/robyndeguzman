@@ -10,6 +10,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
@@ -64,61 +65,70 @@
       </symbol>
     </svg>
     <div class="container">
-      <header class="d-flex justify-content-center py-3">
+      <header class="d-flex justify-content-center py-2">
         <ul class="nav nav-pills">
-          <li id="home" class="Home">
-            <a href="#home" class="nav-link active" aria-current="page">Home</a>
+          <li id="home" class="Home mx-2">
+            <a href="./index.html" class="nav-link active" aria-current="page"
+              >Home</a
+            >
           </li>
-          <li class="about"><a href="#about" class="nav-link">About</a></li>
-          <li class="performances">
-            <a href="#performances" class="nav-link">Performances</a>
+          <li class="about mx-2">
+            <a href="./index.html#about" class="nav-link active">About</a>
+          </li>
+          <li class="performances mx-2">
+            <a href="./performances.html" class="nav-link active"
+              >Performances</a
+            >
           </li>
         </ul>
       </header>
     </div>
 
-    <div class="container">
-      <table class="table">
-        <thead>
-          <tr>
-            <th scope="col"></th>
-            <th scope="col"></th>
-            <th scope="col"></th>
-            <th scope="col"></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row"></th>
-            <td>March 21</td>
-            <td>Radio Reimagine + Joyful Raven Studios @ The Monkey House</td>
-            <td>Berkeley, CA</td>
-          </tr>
-          <tr>
-            <th scope="row"></th>
-            <td>April 6</td>
-            <td>Radical Visionary Collective (private event)</td>
-            <td>Pittsburg, CA</td>
-          </tr>
-          <tr>
-            <th scope="row"></th>
-            <td>May 15</td>
-            <td>The Marsh Theater</td>
-            <td>San Francisco, CA</td>
-          </tr>
-          <tr>
-            <th scope="row"></th>
-            <td>July 7</td>
-            <td>Surrendered Healing @ East Bay Community Space</td>
-            <td>Oakland, CA</td>
-          </tr>
-        </tbody>
-      </table>
+    <div id="table" class="container">
+      <div class="table-container">
+        <!-- Added wrapping div -->
+        <table class="table borderless">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col"></th>
+              <th scope="col"></th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"></th>
+              <td>March 21</td>
+              <td>Radio Reimagine + Joyful Raven Studios @ The Monkey House</td>
+              <td>Berkeley, CA</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td>April 6</td>
+              <td>Radical Visionary Collective (private event)</td>
+              <td>Pittsburg, CA</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td>May 15</td>
+              <td>The Marsh Theater</td>
+              <td>San Francisco, CA</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td>July 7</td>
+              <td>Surrendered Healing @ East Bay Community Space</td>
+              <td>Oakland, CA</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
     <div class="container">
       <div
-        class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+        class="d-flex flex-column flex-sm-row justify-content-between py-5 my-4 pb-2 border-top"
       >
         <p>© 2024 Robyn De Guzman</p>
         <ul class="list-unstyled d-flex">
@@ -126,10 +136,18 @@
             <a
               class="link-body-emphasis"
               href="https://www.instagram.com/robyndeguzmanofficial/"
-              ><svg class="bi" width="24" height="24">
+              ><svg class="bi mx-2" width="24" height="24">
                 <use xlink:href="#instagram"></use></svg
             ></a>
           </li>
+          <li class="ms-3">
+            <a
+              class="link-body-emphasis"
+            href="mailto:deguzmanrobyn@gmail.com">
+              <img class="mx-2" src="./images/icons/paper-plane-svgrepo-com.svg" alt="paper plane" height="32"></svg
+            ></a>
+          </li>
+
         </ul>
       </div>
     </div>

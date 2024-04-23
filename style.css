@@ -5,3 +5,38 @@ html {
 .tffc {
   border-radius: 10%;
 }
+
+table > tbody > tr > td,
+table > tbody > tr > th,
+table > tfoot > tr > td,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > thead > tr > th {
+  border: none;
+}
+
+#table {
+  height: 100vh;
+}
+
+table th {
+  text-align: center;
+}
+
+#table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+/* Adjust the width of the table container */
+.table-container {
+  width: 60%; /* Adjust as needed */
+}
+
+nav {
+  position: sticky;
+  top: 10; // or whatever you have
+  z-index: 1;
+}
