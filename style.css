@@ -59,7 +59,7 @@ table th {
   top: 170px;
   right: 170px;
   font-family: serif;
-  animation: fadeInAnimation ease 15s;
+  animation: fadeInAnimation ease 8s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
