@@ -72,7 +72,15 @@ table th {
 @media screen and (max-width: 1000px) {
   .img-text {
     font-size: 50px;
-    top: 70px;
+    top: 125px;
+    right: 150px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .img-text {
+    font-size: 40px;
+    top: 90px;
     right: 75px;
   }
 }
