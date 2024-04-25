@@ -64,6 +64,17 @@ table th {
   animation-fill-mode: forwards;
 }
 
+.lead {
+  opacity: 0;
+  transform: translateY(25px);
+  transition: all 2s ease-out;
+}
+
+.leadVisible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 @media screen and (max-width: 1300px) {
   .img-text {
     font-size: 70px;
@@ -94,6 +105,14 @@ table th {
     top: 80px;
     right: 50px;
   }
+
+  .lead {
+    opacity: 1;
+    transform: translateY(25px);
+    transition: all 2s ease-out;
+    margin-top: 0px !important;
+    font-size: medium !important;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -102,15 +121,10 @@ table th {
     top: 55px;
     right: 39px;
   }
-}
 
-.lead {
-  opacity: 0;
-  transform: translateY(25px);
-  transition: all 2s ease-out;
-}
-
-.leadVisible {
-  opacity: 1;
-  transform: translateY(0);
+  .lead {
+    opacity: 1;
+    transform: translateY(25px);
+    transition: all 2s ease-out;
+  }
 }
