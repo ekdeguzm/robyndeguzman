@@ -50,3 +50,37 @@ table th {
 .table-container {
   width: 60%; /* Adjust as needed */
 }
+
+/* Bottom left text */
+.img-text {
+  font-size: 90px;
+  color: white;
+  position: absolute;
+  top: 170px;
+  right: 170px;
+  font-family: serif;
+}
+
+@media screen and (max-width: 1300px) {
+  .img-text {
+    font-size: 70px;
+    top: 170px;
+    right: 150px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .img-text {
+    font-size: 50px;
+    top: 70px;
+    right: 75px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .img-text {
+    font-size: 30px;
+    top: 80px;
+    right: 50px;
+  }
+}
