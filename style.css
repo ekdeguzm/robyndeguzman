@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: auto;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -93,5 +93,13 @@ table th {
     font-size: 30px;
     top: 80px;
     right: 50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .img-text {
+    font-size: 22px;
+    top: 55px;
+    right: 39px;
   }
 }
