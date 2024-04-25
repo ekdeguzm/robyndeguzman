@@ -59,7 +59,7 @@ table th {
   top: 170px;
   right: 170px;
   font-family: serif;
-  animation: fadeInAnimation ease 8s;
+  animation: fadeInAnimation ease 15s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -102,4 +102,15 @@ table th {
     top: 55px;
     right: 39px;
   }
+}
+
+.lead {
+  opacity: 0;
+  transform: translateY(25px);
+  transition: all 2s ease-out;
+}
+
+.leadVisible {
+  opacity: 1;
+  transform: translateY(0);
 }
