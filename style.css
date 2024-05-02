@@ -48,7 +48,7 @@ table th {
 
 /* Adjust the width of the table container */
 .table-container {
-  width: 60%; /* Adjust as needed */
+  width: 70%; /* Adjust as needed */
 }
 
 /* Bottom left text */
@@ -127,4 +127,25 @@ table th {
     transform: translateY(25px);
     transition: all 2s ease-out;
   }
+}
+
+.button {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+table th {
+  width: auto !important;
+}
+​​​​​​​​​​​​​ th {
+  width: 10%;
 }
