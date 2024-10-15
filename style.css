@@ -6,6 +6,7 @@ body {
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 @keyframes fadeInAnimation {
@@ -58,7 +59,6 @@ table th {
   position: absolute;
   top: 170px;
   right: 170px;
-  font-family: serif;
   animation: fadeInAnimation ease 6s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
