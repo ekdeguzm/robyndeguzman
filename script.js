@@ -24,3 +24,16 @@ if (window.addEventListener) {
   addEventListener("load", checkForVisibility, false);
   addEventListener("scroll", checkForVisibility, false);
 }
+
+// Function to update the year
+function updateYear() {
+  const yearElement = document.getElementById("currentYear");
+  const currentYear = new Date().getFullYear();
+  yearElement.textContent = currentYear;
+}
+
+// Update the year when the page loads
+document.addEventListener("DOMContentLoaded", updateYear);
+
+// Optional: Update the year when the tab becomes visible again
+document.addEventListener("visibilitychange", updateYear);
