@@ -172,12 +172,13 @@ table th {
   background-color: #f8f9fa;
   border-radius: 8px;
   margin: 0 auto;
-  max-width: 900px; /* Increased from 800px */
-  height: 400px; /* Fixed height instead of min-height */
+  max-width: 900px;
+  min-height: 400px; /* Minimum height instead of fixed height */
   display: flex;
   align-items: center;
   padding: 3rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; /* Allow scrolling if content exceeds the height */
 }
 
 /* Card content container */
@@ -218,18 +219,27 @@ table th {
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .testimonial-card {
-    height: 450px; /* Slightly taller on mobile */
+    min-height: auto; /* Let height adjust based on content */
     padding: 2rem;
   }
 
   .testimonial-text {
     font-size: 1.1rem;
+    line-height: 1.5;
+  }
+
+  .testimonial-author {
+    margin-top: 1.5rem;
   }
 
   /* Adjust spacing on mobile */
   #testimonials {
     margin-top: 4rem;
     margin-bottom: 2rem;
+  }
+
+  #testimonialCarousel {
+    min-height: auto; /* Allow carousel height to adjust dynamically */
   }
 
   .container.col-xxl-8.px-4.py-0.mb-5 {
